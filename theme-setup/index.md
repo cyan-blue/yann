@@ -163,7 +163,7 @@ To add additional links in the drop down menu edit `_data/navigation.yml`. Use t
   url: /portfolio/
 
 - title: Made Mistakes
-  url: http://mademistakes.com  
+  url: http://www.baidu.com  
 {% endhighlight %}
 
 ---
@@ -226,7 +226,7 @@ If you want to apply attribution to a feature image use the following YAML front
 image:
   feature: feature-image-filename.jpg
   credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing
+  creditlink: http://www.baidu.com #url to their site or licensing
 {% endhighlight %}
 
 #### Post/Page Thumbnails for OG and Twitter Cards
@@ -285,6 +285,6 @@ This theme is free and open source software, distributed under the [MIT License]
 
 ---
 
-[^1]: Used to generate absolute URLs in `feed.xml`, and for canonical URLs in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you're using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home.
+[^1]: Used to generate absolute URLs in `feed.xml`, and for canonical URLs in `head.html`. Don't include a trailing `/` in your base url ie: http://www.baidu.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you're using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home.
 
 [^2]: If you're using GitHub Pages to host your site be aware that plugins are disabled. So you'll need to build your site locally and then manually deploy if you want to use this sweet plugin.
